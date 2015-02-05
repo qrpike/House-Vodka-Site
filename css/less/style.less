@@ -1,0 +1,152 @@
+@import "mixins";
+
+body {
+	background: #f5f4f2;
+}
+
+#header {
+	
+	background: #fff;
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	z-index: 5;
+	
+	#logo {
+		
+		margin: 25px 0;
+		
+	}
+
+}
+
+
+
+
+
+#mainContent {
+
+	#welcomePage {
+		display: none;
+	}
+	
+	padding-top: 10%;
+	padding-bottom: 160px;
+	
+	#big-brand {
+		margin-top: 90px;
+	}
+	
+	#brand-two {
+		margin-top: 50px;
+	}
+	
+	.pitch {
+		padding: 20px;
+		line-height: 185%;
+		font-size: 18px;
+		color: #999;
+		font-weight: 300;
+	}
+	
+	.inStores {
+		color: #999;
+		margin-top: 15px;
+		margin-bottom: 40px;
+		h3 {
+			margin: 0;
+			font-size: 34px;
+			color: #0d3257;
+		}
+	}
+	
+	h1 {
+		color: #999;
+		font-size: 18px;
+		font-weight: 300;
+		padding-left: 5px;
+	}
+
+	.ageForm {
+	
+		input.form-control, select {
+			.rounded(0);
+			border: 0;
+			font-size: 30px;
+			height: 70px;
+			.box-shadow( none );
+			width: 30%;
+			margin: 1.5%;
+			text-align: center;
+			font-weight: 300;
+			color: #333;
+		}
+		
+		select.form-control {
+			width: 97%;
+			margin: 1.5%;
+			height: 46px;
+			padding: 5px 15px;
+			color: #999;
+			-webkit-appearance: none;
+			font-size: 24px;
+			text-transform: uppercase;
+			background: #fff;
+			border: 0;
+			.box-shadow( none );
+			.rounded(0);
+		}
+		
+		p {
+			margin: 24px 1.5%;
+			color: #999;
+			a {
+				color: #999;
+				text-decoration: underline;
+			}
+		}
+		
+		button.btn.btn-primary {
+			background: #0d3257;
+			.rounded(0);
+			border: 0;
+			font-size: 22px;
+			.box-shadow( none );
+			font-weight: 300;
+			padding: 5px 35px;
+		}
+		
+	}
+
+}
+
+
+
+
+
+#footer {
+	
+	background: #fff;
+	position: fixed;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	padding: 20px;
+	z-index: 5;
+	
+	img {
+		margin-bottom: 5px;
+	}
+	
+	small {
+		font-size: 10px;
+		color: #ccc;
+		
+		p {
+			padding: 0px;
+			margin: 5px;
+		}
+	}
+	
+}

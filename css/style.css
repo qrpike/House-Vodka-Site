@@ -1,0 +1,186 @@
+/* 
+ *	## Mixins
+ */
+/* 
+ *	Create a Gradient background
+ */
+/* 
+ *	Creating a new Button: 
+ */
+/* 
+ *	Add border to a element
+ */
+/* 
+ *	Add drop shadow to a element
+ */
+/* 
+ *	Make a element have rounded corners. 
+ */
+/* 
+ *	Add a border radius (TR,BR,BL,TL) format.
+ */
+/* 
+ *	Set the opacity of a element.
+ */
+/* 
+ *	CSS3 Transition duration
+ */
+/* 
+ *	Rotate a element
+ */
+/* 
+ *	CSS3 scale a element.
+ */
+/* 
+ *	Add a transition timer
+ */
+/* 
+ *	Inner shadow to a element.
+ */
+/* 
+ *	Add a box shadow to a element.
+ */
+/* 
+ *	HTML5 Columns elements.
+ */
+/* 
+ *	CSS3 Translate
+ */
+/* 
+ *	Add a CSS3 filter.
+ */
+body {
+  background: #f5f4f2;
+}
+#header {
+  background: #fff;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 5;
+}
+#header #logo {
+  margin: 25px 0;
+}
+#mainContent {
+  padding-top: 10%;
+  padding-bottom: 160px;
+}
+#mainContent #welcomePage {
+  display: none;
+}
+#mainContent #big-brand {
+  margin-top: 90px;
+}
+#mainContent #brand-two {
+  margin-top: 50px;
+}
+#mainContent .pitch {
+  padding: 20px;
+  line-height: 185%;
+  font-size: 18px;
+  color: #999;
+  font-weight: 300;
+}
+#mainContent .inStores {
+  color: #999;
+  margin-top: 15px;
+  margin-bottom: 40px;
+}
+#mainContent .inStores h3 {
+  margin: 0;
+  font-size: 34px;
+  color: #0d3257;
+}
+#mainContent h1 {
+  color: #999;
+  font-size: 18px;
+  font-weight: 300;
+  padding-left: 5px;
+}
+#mainContent .ageForm input.form-control,
+#mainContent .ageForm select {
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+  border: 0;
+  font-size: 30px;
+  height: 70px;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  width: 30%;
+  margin: 1.5%;
+  text-align: center;
+  font-weight: 300;
+  color: #333;
+}
+#mainContent .ageForm select.form-control {
+  width: 97%;
+  margin: 1.5%;
+  height: 46px;
+  padding: 5px 15px;
+  color: #999;
+  -webkit-appearance: none;
+  font-size: 24px;
+  text-transform: uppercase;
+  background: #fff;
+  border: 0;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+}
+#mainContent .ageForm p {
+  margin: 24px 1.5%;
+  color: #999;
+}
+#mainContent .ageForm p a {
+  color: #999;
+  text-decoration: underline;
+}
+#mainContent .ageForm button.btn.btn-primary {
+  background: #0d3257;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+  border: 0;
+  font-size: 22px;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  font-weight: 300;
+  padding: 5px 35px;
+}
+#footer {
+  background: #fff;
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding: 20px;
+  z-index: 5;
+}
+#footer img {
+  margin-bottom: 5px;
+}
+#footer small {
+  font-size: 10px;
+  color: #ccc;
+}
+#footer small p {
+  padding: 0px;
+  margin: 5px;
+}
