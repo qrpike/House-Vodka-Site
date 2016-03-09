@@ -1,0 +1,23 @@
+publish:
+  docker:
+    repo: qrpike/house-liquor
+    tag:
+      - '$${BRANCH/master/latest}'
+      - '$$BRANCH.$$BUILD_NUMBER'
+    registry: docker.stackdot.com
+    username: $$DRONE_REGISTRY_USER
+    password: $$DRONE_REGISTRY_PASS
+    email: drone@stackdot.com
+    storage_driver: overlay
+
+# deploy:
+#   rancher:
+#     url: $$RANCHER_URL
+#     access_key: $$RANCHER_KEY
+#     secret_key: $$RANCHER_SECRET
+#     service: qrpike/house-liquor-com
+#     docker_image: docker.stackdot.com/qrpike/house-liquor:$$BRANCH.$$BUILD_NUMBER
+#     confirm: true
+#     timeout: 300
+#     when:
+#       branch: master
