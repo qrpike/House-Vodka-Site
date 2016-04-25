@@ -15,8 +15,8 @@ deploy:
     url: $$RANCHER_URL
     access_key: $$RANCHER_KEY
     secret_key: $$RANCHER_SECRET
-    service: personal/house-liquor-com
-    docker_image: docker.stackdot.com/qrpike/house-liquor:$$BRANCH.$$BUILD_NUMBER
+    service: qrpike/house-liquor-com
+    docker_image: docker.stackdot.com/personal/house-liquor:$$BRANCH.$$BUILD_NUMBER
     confirm: true
     timeout: 300
     when:
